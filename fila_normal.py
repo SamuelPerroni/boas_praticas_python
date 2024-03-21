@@ -8,7 +8,7 @@ class FilaNormal:
         self.senha_atual = f'NM{self.codigo}'
 
     def reseta_fila(self) -> None:
-        if self.codigo >= 100:
+        if self.codigo >= 200:
             self.codigo = 0
         else:
             self.codigo += 1
