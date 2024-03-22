@@ -1,5 +1,5 @@
 import abc
-from typing import List
+from typing import List, Union
 
 from constantes import TAMANHO_PADRAO_MAXIMO, TAMANHO_PADRAO_MINIMO
 
